@@ -47,6 +47,7 @@ const Header = () => {
             <img class="icon" src="img/icons8-github-48.png"/>
             <img class="icon" src="img/icons8-linkedin-48.png"/>
             <img class="icon" src="img/icons8-mailing-48.png"/>
+            <img class="icon" src="img/icons8-download-resume-48.png"/>
           </div>
         </div>
       </div>
