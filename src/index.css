@@ -37,11 +37,16 @@ img {
     border-radius: 12px;
     max-width: 400px;
     position: relative;
-    border: .5px solid rgb(122, 122, 122);
+    /* border: .5px solid rgb(122, 122, 122); */
+}
+
+.profile-card__txt {
+    margin-top: -1vh;
+    letter-spacing: .3px;
 }
 
 .profile-card__cnt{
-    margin-top: -75px;
+    margin-top: -9vh;
     text-align: center;
     padding: 0 20px;
     padding-bottom: 0px;
@@ -57,4 +62,9 @@ img {
     padding: 1rem 1rem 0 1rem;
     /* border: 1px solid black; */
     border-radius: 0;
+}
+
+.text-spacing{
+    display: inline-block;
+    width: 2.5vw;
 }

@@ -13,13 +13,11 @@ const Header = () => {
 
         <div class="profile-card__cnt js-profile-cnt">
           <div class="profile-card__name">Jason Moon</div>
-          <div class="profile-card__txt">
-            Software Developer
-          </div>
+          <div class="profile-card__txt">Software Developer <span class="text-spacing"></span> Los Angeles</div>
           <div class="profile-card-loc">
             <span class="profile-card-loc__icon"></span>
 
-            <span class="profile-card-loc__txt">Los Angeles, California</span>
+            <span class="profile-card-loc__txt"></span>
           </div>
           {/* <div class="profile-card-inf">
             <div class="profile-card-inf__item">
