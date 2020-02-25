@@ -3,7 +3,8 @@ import React from 'react';
 //components
 import Header from './components/Header/Header';
 
-function App() {
+const App = () => 
+{
   return (
     <div>
       <Header/>

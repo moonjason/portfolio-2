@@ -42,10 +42,10 @@ const Header = () => {
           </div> */}
 
           <div class="profile-card-social">
-            <img class="icon" src="img/icons8-github-48.png"/>
-            <img class="icon" src="img/icons8-linkedin-48.png"/>
-            <img class="icon" src="img/icons8-mailing-48.png"/>
-            <img class="icon" src="img/icons8-download-resume-48.png"/>
+            <img class="icon" src="img/icons8-github-48.png" alt="github-link"/>
+            <img class="icon" src="img/icons8-linkedin-48.png" alt="linkedin-link"/>
+            <img class="icon" src="img/icons8-mailing-48.png" alt="email-link"/>
+            <img class="icon" src="img/icons8-download-resume-48.png" alt="resume-link"/>
           </div>
         </div>
       </div>
