@@ -45,7 +45,7 @@ img {
 }
 
 .profile-card__txt {
-    margin-top: -1vh;
+    /* margin-top: -1vh; */
     letter-spacing: .3px;
 }
 
@@ -57,13 +57,23 @@ img {
     transition: all .3s;
 }
 
+.profile-card-social {
+    margin-top: -.5vh;
+}
+
 .profile-card__name{
     font-size: 3.5rem;
 }
 
+.profile-card__line{
+    border: .5px solid black;
+    margin: -1vh auto 1vh auto;
+    width: 15.5vw;
+}
+
 .icon{
     width: 24px;
-    margin: 1rem 1.2rem 0 1.2rem;
+    margin: 1.2rem 1.2rem 0 1.2rem;
     /* border: 1px solid black; */
     border-radius: 0;
     opacity: 1;
