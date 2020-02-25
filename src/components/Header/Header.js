@@ -42,10 +42,10 @@ const Header = () => {
           </div> */}
 
           <div class="profile-card-social">
-            <img class="icon" src="img/icons8-github-48.png" alt="github-link"/>
-            <img class="icon" src="img/icons8-linkedin-48.png" alt="linkedin-link"/>
-            <img class="icon" src="img/icons8-mailing-48.png" alt="email-link"/>
-            <img class="icon" src="img/icons8-download-resume-48.png" alt="resume-link"/>
+            <a href="https://www.github.com/moonjason"><img class="icon" src="img/icons8-github-48.png" alt="github-link"/></a>
+            <a href="https://www.linkedin.com/in/jasonmoon96"><img class="icon" src="img/icons8-linkedin-48.png" alt="linkedin-link"/></a>
+            <a href="mailto:jasonmoonjm@gmail.com"><img class="icon" src="img/icons8-mailing-48.png" alt="email-link"/></a>
+            <a href="https://docs.google.com/document/d/1JUKV8INNshnN7zcbX3-JNoPpL8UUpIV8OXVA-xIU29A/edit?usp=sharing"><img class="icon" src="img/icons8-download-resume-48.png" alt="resume-link"/></a>
           </div>
         </div>
       </div>
