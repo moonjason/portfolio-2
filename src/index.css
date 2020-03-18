@@ -14,15 +14,15 @@ img {
 }
 
 .wrapper{ 
-    padding-top: 15vh;
+    padding-top: 12vh;
     display: flex;
     justify-content: center;
     font-family: 'Teko', sans-serif;
 }
 
 .profile-card__img{
-    width: 150px;
-    height: 150px;
+    width: 115px;
+    height: 115px;
     margin-left: auto;
     margin-right: auto;
     transform: translateY(-50%);
@@ -58,17 +58,17 @@ img {
 }
 
 .profile-card-social {
-    margin-top: -.5vh;
+    margin-top: -1.5vh;
 }
 
 .profile-card__name{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 
 .profile-card__line{
     border: .5px solid black;
     margin: -1vh auto 1vh auto;
-    width: 15.5vw;
+    width: 220px;
 }
 
 .icon{

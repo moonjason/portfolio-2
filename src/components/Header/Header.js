@@ -22,27 +22,6 @@ const Header = () => {
 
             <span class="profile-card-loc__txt"></span>
           </div>
-          {/* <div class="profile-card-inf">
-            <div class="profile-card-inf__item">
-              <div class="profile-card-inf__title">1598</div>
-              <div class="profile-card-inf__txt">Followers</div>
-            </div>
-
-            <div class="profile-card-inf__item">
-              <div class="profile-card-inf__title">65</div>
-              <div class="profile-card-inf__txt">Following</div>
-            </div>
-
-            <div class="profile-card-inf__item">
-              <div class="profile-card-inf__title">123</div>
-              <div class="profile-card-inf__txt">Articles</div>
-            </div>
-
-            <div class="profile-card-inf__item">
-              <div class="profile-card-inf__title">85</div>
-              <div class="profile-card-inf__txt">Works</div>
-            </div>
-          </div> */}
 
           <div class="profile-card-social">
             <a href="https://www.github.com/moonjason" onMouseEnter={() => setCurrentLink("Github: moonjason")} onMouseLeave={() => setCurrentLink("")}><img class="icon" src="img/icons8-github-48.png" alt="github-link"/></a>
