@@ -17,9 +17,9 @@ const Header = () => {
           <div class="profile-card__name">Jason Moon</div>
           <div class="profile-card__line"></div>
           <div class="profile-card__txt">Software Developer <span class="text-spacing"></span> Los Angeles</div>
+         
           <div class="profile-card-loc">
             <span class="profile-card-loc__icon"></span>
-
             <span class="profile-card-loc__txt"></span>
           </div>
 
@@ -29,7 +29,7 @@ const Header = () => {
             <a href="mailto:jasonmoonjm@gmail.com" onMouseEnter={() => setCurrentLink("Email: jasonmoonjm@gmail.com")} onMouseLeave={() => setCurrentLink("")}><img class="icon" src="img/icons8-mailing-48.png" alt="email-link"/></a>
             <a href="https://docs.google.com/document/d/1JUKV8INNshnN7zcbX3-JNoPpL8UUpIV8OXVA-xIU29A/edit?usp=sharing" onMouseEnter={() => setCurrentLink("Resume")} onMouseLeave={() => setCurrentLink("")}><img class="icon" src="img/icons8-download-resume-48.png" alt="resume-link"/></a>
           </div>
-        <p class="link-desc">{currentLink}</p>
+          <p class="link-desc">{currentLink}</p>
         </div>
       </div>
     </div>
