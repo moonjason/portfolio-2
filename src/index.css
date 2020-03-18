@@ -83,3 +83,27 @@ img {
     display: inline-block;
     width: 2.5vw;
 }
+
+/* NAV BAR START*/
+.nav-btns-container {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-family: 'Teko', sans-serif;
+}
+
+.nav-btn {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.nav-btn:nth-child(1) {
+    border-right: none;
+}
+
+.nav-btn:nth-child(3) {
+    border-left: none;
+}
+/* NAV BAR END  */
