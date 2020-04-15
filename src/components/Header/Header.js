@@ -6,11 +6,8 @@ const Header = () => {
   return (
     <div class="wrapper">
       <div class="profile-card js-profile-card">
-        <div id="img" class="profile-card__img">
-          <img
-            src="#"
-            alt="profile card"
-          />
+        <div id="img" class="profile-card__img-container">
+          <img src="#" id="profile-card__img"alt="profile card"/>
         </div>
 
         <div class="profile-card__cnt js-profile-cnt">
